@@ -7,5 +7,4 @@ public record OrderCreatedDto(
         UUID customerId,
         String orderName,
         String orderLocation
-) {
-}
+) { }

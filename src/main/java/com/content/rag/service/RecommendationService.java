@@ -21,8 +21,7 @@ public class RecommendationService {
     private final ChatClient chatClient;
     private final VectorStoreRepository vectorStoreRepository;
 
-    public RecommendationService(ChatClient recommendationChatClient,
-                                 VectorStoreRepository vectorStoreRepository) {
+    public RecommendationService(ChatClient recommendationChatClient, VectorStoreRepository vectorStoreRepository) {
         this.chatClient = recommendationChatClient;
         this.vectorStoreRepository = vectorStoreRepository;
     }
